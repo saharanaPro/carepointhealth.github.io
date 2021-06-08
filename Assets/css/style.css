@@ -1,0 +1,420 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body,html
+{
+        max-width: 100%;
+        overflow-x: hidden;
+        background-position: top;
+}
+@font-face {
+    font-family: AvenirLTStd-Roman;
+    src: url(AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: AvenirLTStd-Book;
+    src: url(AvenirLTStd-Book.otf);
+}
+@font-face {
+    font-family: AvenirLTStd-Black;
+    src: url(AvenirLTStd-Black.otf);
+}
+
+/**** wrapper css start ****/
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+/**** wrapper css end ****/
+
+/* heading css start */
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+    background: #fff;
+}
+.logo {
+    width: 100px;
+    min-width: 80px;
+    margin: auto;
+}
+.logo img {
+    width: 100px;
+    min-width: 80px;
+}
+.nav {
+    width: 100%;
+    height: auto;
+}
+.carve-span {
+    display: block;
+    width: 80px;
+    height: 40px;
+    /*-sm-transform: skewX(45deg);*/
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg);
+    background: #003e6d;
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+.details {
+    width: 90%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 6px 0;
+    background: #003e6d;
+    position: relative;
+}
+.details ul.contact-list {
+    list-style: none;
+    display: table;
+}
+
+.details ul.contact-list .list-item {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 0 10px;
+}
+ul.contact-list .list-item:not(:first-child) {
+    border-left: 1px solid white;
+}
+.navigation-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-menu .menu-item {
+    list-style: none;
+    display: table;
+    box-sizing: border-box;
+    padding-left: 68px;
+}
+.navigation-menu .menu-link {
+    display: inline-block;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.navigation-menu .menu-link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navigation-menu .bookAppointment:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.bookAppointment {
+    display: table;
+    font-size: 11px;
+    width: 160px;
+    height: 40px;
+    min-height: 40px;
+    background: #5aaded;
+    color: white;
+    text-align: center;
+    line-height: 3.6;
+    position: relative;
+}
+.bookAppointment:before {
+    content: '\f0d9';
+    font-family: 'FontAwesome';
+    font-size: 68px;
+    color: #5aaded;
+    position: absolute;
+    top: -102px;
+    left: -23px;
+}
+/* heading css end */
+/** banner css start **/
+.banner {
+    max-width: 100%;
+}
+.carousel-item {
+    width: 100%;
+}
+.bannerImg-one {
+    width: 100%;
+}
+#carousel-caption--manipulate {
+    width: 400px;
+    position: absolute;
+    top: 29px;
+    left: 105px;
+}
+#carousel-caption--manipulate h3 {
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+     font-family: "AvenirLTStd-Black";
+/*    font-family: AvenirLTStd-Black;*/
+}
+#carousel-caption--manipulate p {
+     color: black;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+     font-family: "AvenirLTStd-Black";
+}
+.medicalDiv {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+    float: left;
+    box-shadow: 1px 2px rgba(0,0,0,0.2);
+}
+.Sub-medicalDiv {
+    display: block;
+    width: 40px;
+    height: 40px;
+    /* padding: 10px; */
+    line-height: 2.1;
+    margin: 5px auto;
+    /* text-align: center; */
+    background: #0b90cd;
+    border-radius: 100%;
+    box-shadow: rgba(0,0,0,0.2);
+}
+.Sub-medicalDiv img {
+    width: 25px;
+}
+.trans-txt {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    color: #000;
+    font-family: "AvenirLTStd-Black";
+}
+/** banner css end **/
+
+/*** about css start ***/
+.about {
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.title-aboutDiv {
+    position: relative;
+}
+.aboutUs-Paragraph h4 {
+    font-family: "AvenirLTStd-Black";
+    /*font-family: AvenirLTStd-Black;*/
+}
+
+.aboutUs-Paragraph p {
+    font-family: "AvenirLTStd-Black";
+}
+
+.title-about {
+    margin-left: 67px;
+}
+.title-about:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #0b90cd;
+    left: 5px;
+    top: 47%;
+    position: absolute;
+}
+.readMore {
+    background-color: transparent;
+    border: none;
+    background: #003e6d;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
+.readMore:focus, .readMore:active {
+    outline: none;
+    border: none;
+}
+/***************** profile card css start ****************/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 266px;
+    min-height: 266px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+#cardBox {
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+#cardBox1 {
+    /*padding-right: 40px;*/
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card > p {
+    background: #013466;
+    font-size: 16px;
+    padding: 10px 0;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    font-family: "AvenirLTStd-Black";
+}
+/***************** profile card css end ****************/
+/*** about css end ***/
+
+/**** future service start ****/
+.futureService {
+    max-width: 100%;
+}
+.futureService h4 {
+    font-family: "AvenirLTStd-Roman";
+    border-left: 2px solid black;
+    padding-left: 10px;
+/*font-family: AvenirLTStd-Roman;*/
+}
+.futureService--box {
+    width: 100%;
+    height: 200px;
+    background-image: radial-gradient( #119dd5 30%, #047cc1 60%);
+    position: relative;
+}
+.futureService--iconBox {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 100%;
+    transform: translateX(50%);
+    position: absolute;
+    top: -38px;
+}
+
+.futureService--iconBox img{
+    display: block;
+    width: 50px;
+    margin: 10px auto;
+}
+
+.futureService--box h5 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 51px;
+}
+
+.futureService--box .futu-ReadMore {
+    display: block;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 20px;
+}
+
+/**** future service end ****/
+
+/***** future service start *****/
+.quickEmquiry {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.quickEnquiry--img {
+    width: 100%;
+
+}
+.quickEnquiry--img img {
+    width: 100%;
+}
+/***** future service end *****/
+
+/****** health banner start ******/
+.healthBanner {
+    width: 100%;
+    padding: 30px 0;
+}
+.healthBanner-img {
+    width: 100%;
+    height: 200px;
+    background-image: url("../Imgs/healthBanner.png");
+   background-size: 100% 100%;
+}
+.healthBanner-img h5 {
+    text-align: center;
+    color: white;
+        padding-top: 69px;
+}
+.bookAppointmentHealth {
+    display: block;
+    font-size: 11px;
+    width: 160px;
+    height: 40px;
+    min-height: 40px;
+    background: white;
+    color: #073361;
+    margin: auto;
+    text-align: center;
+    line-height: 3.6;
+}
+.bookAppointmentHealth:hover {
+    color: #073361;
+    text-decoration: none;
+    cursor: pointer;
+}
+/****** health banner end ******/
+
+/***** latest news css start *****/
+
+.card001 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 266px;
+    min-height: 266px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card001 h5 {
+    text-align: left;
+    font-family: "AvenirLTStd-Black";
+    padding-top: 20px;
+}
+
+.card001 p {
+    text-align: left;
+    font-family: "AvenirLTStd-Black";
+}
+
+/***** latest news css start *****/
