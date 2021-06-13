@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+a {text-decoration: none !important;}
+
 body,html
 {
         max-width: 100%;
@@ -396,10 +398,20 @@ button {
 
 /***** latest news css start *****/
 
+.latestNews {
+    width: 100%;
+    height: auto;
+}
+
+.latestNews h4 {
+    text-align: center;
+    padding: 15px 0;
+}
+
 .card001 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
-    height: 266px;
+    height: auto;
     min-height: 266px;
     margin: auto;
     text-align: center;
@@ -409,12 +421,101 @@ button {
 .card001 h5 {
     text-align: left;
     font-family: "AvenirLTStd-Black";
-    padding-top: 20px;
+    padding: 0 10px;
 }
 
 .card001 p {
     text-align: left;
     font-family: "AvenirLTStd-Black";
+    padding: 8px 10px;
 }
 
 /***** latest news css start *****/
+
+/*********  Footer banner css start ********/
+.footer {
+    width: 100%;
+    background: url(../Imgs/footerBanner.png);
+    height: auto;
+}
+
+.foo-heading {
+    color: white;
+}
+ul.foo-menu-list {
+    list-style: none;
+    padding-top: 15px;
+    position: relative;
+}
+ul.foo-menu-list:before {
+     content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: white;
+    position: absolute;
+} 
+ul.foo-menu-list li:first-child {
+    padding-top: 26px;
+}
+ul.foo-menu-list li {
+    display: block;
+}
+ul.foo-menu-list li a {color: white;}
+ul.futuerService-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+/*    justify-content: space-around;*/
+    padding-top: 15px;
+}
+ul.futuerService-list:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: white;
+    position: absolute;
+} 
+ul.futuerService-list li:first-child a {
+    margin-top: 26px;
+    display: block;
+}
+ul.futuerService-list li:nth-child(2) a {
+    margin-top: 26px;
+    display: block;
+}
+ul.futuerService-list li {
+    flex: 0 0 50%;
+}
+
+ul.futuerService-list li a {
+    color: white;
+}
+.foo_contact-list {
+    list-style: none;
+    padding-top: 15px;
+}
+ul.foo_contact-list:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: white;
+    position: absolute;
+}
+.foo_contact-list li:first-child{
+    padding-top: 26px;
+}
+.foo_contact-list li {
+    display: block;
+}
+.foo_contact-list li a {
+    color: white;
+}
+.copyRight {
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+/*********  Footer banner css end ********/
