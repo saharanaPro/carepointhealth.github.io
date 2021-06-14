@@ -380,19 +380,22 @@ button {
 .bookAppointmentHealth {
     display: block;
     font-size: 11px;
-    width: 160px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     min-height: 40px;
     background: white;
     color: #073361;
     margin: auto;
     text-align: center;
-    line-height: 3.6;
+    font-size: 15px;
+    line-height: 3.4;
+    font-weight: 600;
 }
 .bookAppointmentHealth:hover {
     color: #073361;
     text-decoration: none;
     cursor: pointer;
+    font-size: 15px;
 }
 /****** health banner end ******/
 
@@ -414,24 +417,41 @@ button {
     height: auto;
     min-height: 266px;
     margin: auto;
-    text-align: center;
+/*    text-align: center;*/
     font-family: arial;
 }
 
 .card001 h5 {
-    text-align: left;
     font-family: "AvenirLTStd-Black";
     padding: 0 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-justify:inter-word;
 }
 
 .card001 p {
     text-align: left;
     font-family: "AvenirLTStd-Black";
     padding: 8px 10px;
+    text-align: justify;
+    text-justify:inter-word;
 }
-
+.card001 .card-001_ReadMore {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    padding: 10px 0;
+    display: table;
+}
+.card001 .dateTxt {
+    display: table;
+    font-size: 13px;
+    padding: 10px 10px;
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+}
 /***** latest news css start *****/
-
 /*********  Footer banner css start ********/
 .footer {
     width: 100%;
@@ -476,6 +496,7 @@ ul.futuerService-list:before {
     height: 5px;
     background: white;
     position: absolute;
+    left: 78px;
 } 
 ul.futuerService-list li:first-child a {
     margin-top: 26px;
@@ -487,6 +508,10 @@ ul.futuerService-list li:nth-child(2) a {
 }
 ul.futuerService-list li {
     flex: 0 0 50%;
+}
+
+ul.futuerService-list li:nth-child(1n + 1) {
+    padding-left: 47px;
 }
 
 ul.futuerService-list li a {
@@ -509,13 +534,48 @@ ul.foo_contact-list:before {
 }
 .foo_contact-list li {
     display: block;
+    padding: 5px 0;
 }
 .foo_contact-list li a {
     color: white;
+}
+.foo_contact-list li:first-child a:before {
+    content: "\f095";
+    font-family: 'FontAwesome';
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+    position: relative;
+    top: 6px;
+}
+.foo_contact-list li:nth-child(2) a:before {
+    content: "\f0e0";
+    font-family: 'FontAwesome';
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+    position: relative;
+    top: 6px;
+}
+.foo_contact-list li:nth-child(3) a:before {
+    content: "\f017";
+    font-family: 'FontAwesome';
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+    position: relative;
+    top: 6px;
 }
 .copyRight {
     width: 100%;
     height: 50px;
     background: white;
+}
+.callUs_no {
+    color: white;
+    display: table;
+    line-height: 0.9;
+    font-size: 20px;
+    margin-left: 34px;
 }
 /*********  Footer banner css end ********/
