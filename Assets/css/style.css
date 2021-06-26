@@ -82,7 +82,7 @@ header {
 .details ul.contact-list .list-item {
     display: inline-block;
     color: white;
-    font-size: 12px;
+    font-size: 0.68rem;
     padding: 0 10px;
 }
 ul.contact-list .list-item:not(:first-child) {
@@ -98,6 +98,9 @@ ul.contact-list .list-item:not(:first-child) {
     display: table;
     box-sizing: border-box;
     padding-left: 68px;
+}
+.menuBar {
+    display: none;
 }
 .navigation-menu .menu-link {
     display: inline-block;
@@ -140,6 +143,7 @@ ul.contact-list .list-item:not(:first-child) {
 /** banner css start **/
 .banner {
     max-width: 100%;
+    height: auto;
 }
 .carousel-item {
     width: 100%;
