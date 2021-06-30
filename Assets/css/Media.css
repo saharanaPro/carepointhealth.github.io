@@ -1,12 +1,32 @@
 ﻿/* Media Query */
 
 @media screen and (max-width: 600px) {
+    .details {
+            width: 80%;
+    }
+
     .details ul.contact-list .list-item {
         font-size: 0.50rem;
     }
     .carve-span {
-        display: none;
+        display: block;
+        width: 60px;
     }
+}
+
+@media screen and (max-width: 411px) {
+    .details {
+        width: 78%;
+        position: relative;
+    }
+        .details ul.contact-list .list-item {
+            font-size: 6px;
+            position: relative;
+            left: -10px;
+        }
+        .details ul.contact-list .list-item {
+            padding: 0 5px;
+        }
 }
 
 @media screen and (max-width: 768px) {
