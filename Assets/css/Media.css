@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 320px) {
     .details ul.contact-list .list-item {
-        font-size: 5px;
+        font-size: 5px; 
     }
 }
 
