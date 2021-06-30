@@ -4,6 +4,7 @@
     .details {
             width: 80%;
             position: relative;
+            top: 5px;
     }
 
     .details ul.contact-list .list-item {
@@ -20,6 +21,10 @@
     .details ul.contact-list .list-item {
         padding: 0 5px;
     }
+    .bookAppointment {
+        position: relative;
+        top: 4px;
+    }
 }
 
 @media screen and (max-width: 411px) {
@@ -28,7 +33,7 @@
         position: relative;
     }
         .details ul.contact-list .list-item {
-            font-size: 5px;
+            font-size: 6px;
             position: relative;
             left: -10px;    
         }
@@ -37,11 +42,11 @@
         }
 }
 
-/*@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .details ul.contact-list .list-item {
-        font-size: 5px; 
+        font-size: 5px !important; 
     }
-}*/
+}
 
 /* menu bar */
 
