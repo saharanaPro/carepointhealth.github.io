@@ -8,6 +8,7 @@
 
     .details ul.contact-list .list-item {
         font-size: 7px;
+        color: yellow;
         position: relative;
         z-index: 1000;
         left: -15px;
@@ -29,7 +30,7 @@
         .details ul.contact-list .list-item {
             font-size: 6px;
             position: relative;
-            left: -10px;
+            left: -10px;    
         }
         .details ul.contact-list .list-item {
             padding: 0 5px;
