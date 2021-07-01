@@ -152,18 +152,22 @@ ul.contact-list .list-item:not(:first-child) {
     width: 100%;
     min-height: 400px;
 }
-#carousel-caption--manipulate {
+/*#carousel-caption--manipulate {
     width: 400px;
     position: absolute;
     top: 29px;
     left: 105px;
+}*/
+.carousel-caption {
+    position: absolute !important;
+    top: 30px !important;
 }
 #carousel-caption--manipulate h3 {
     color: black;
     text-align: left;
     margin-top: 20px;
-     font-family: "AvenirLTStd-Black";
-/*    font-family: AvenirLTStd-Black;*/
+    font-family: "AvenirLTStd-Black";
+    /*    font-family: AvenirLTStd-Black;*/
 }
 #carousel-caption--manipulate p {
      color: black;
