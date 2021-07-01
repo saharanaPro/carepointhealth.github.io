@@ -24,7 +24,16 @@
     .bookAppointment {
         position: relative;
         top: 4px;
-    } 
+    }
+/* banner start */
+    #carousel-caption--manipulate {
+        position: absolute;
+        top: -18px;
+    }
+
+        #carousel-caption--manipulate h3 {
+            font-size: 20px;
+        }
 }
 
 @media screen and (max-width: 411px) {
@@ -58,8 +67,8 @@
         font-size: 4.40px;
     }
 }
-/* menu bar */
 @media screen and (max-width: 990px) {
+    /* menu bar start */
     .navigation-menu .menu-item {
         display: none;
     }
@@ -72,4 +81,5 @@
         color: black;
         font-size: 30px;
     }
+    /* menu bar end */
 }
