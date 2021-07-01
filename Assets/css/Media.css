@@ -42,10 +42,15 @@
         }
 }
 
-@media screen and (max-width: 320px) {
-    .details ul.contact-list .list-item {
-        font-size: 5px !important; 
+@media screen and (max-width: 354px) {
+    .details ul.contact-list {
+        width: 100%;
     }
+        .details ul.contact-list .list-item {
+            font-size: 5px;
+         /*   position: relative;
+            left: -10px;*/
+        }
 }
 
 /* menu bar */
