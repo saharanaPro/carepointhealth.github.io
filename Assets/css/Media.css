@@ -49,6 +49,9 @@
         .details ul.contact-list .list-item {
             padding: 0 5px;
         }
+    .bannerImg-one {
+        max-height: 300px;
+    }
 }
 
 @media screen and (max-width: 354px) {
