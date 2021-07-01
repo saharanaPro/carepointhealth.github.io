@@ -158,6 +158,9 @@ ul.contact-list .list-item:not(:first-child) {
     top: 29px;
     left: 105px;
 }*/
+.col_medicalDiv {
+    padding-top: 15px;
+}
 .carousel-caption {
     position: absolute !important;
     top: 30px !important;
